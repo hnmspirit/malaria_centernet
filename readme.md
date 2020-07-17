@@ -14,9 +14,9 @@
 
 ## Installation
 
-pip install -r requirements.txt
-bash compile_coco.sh
-bash compile_nms.sh
++ pip install -r requirements.txt
++ bash compile_coco.sh
++ bash compile_nms.sh
 
 
 ## Dataset
