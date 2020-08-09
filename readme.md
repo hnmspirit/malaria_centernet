@@ -1,6 +1,17 @@
 # Malaria-CenterNet
-+ based on Objects as Points paper and source
+
 + detect malaria parasites and white blood cells in thick blood smears
++ origin paper: https://arxiv.org/abs/1904.07850
++ origin repo: https://github.com/xingyizhou/CenterNet
+
+
+## What's new
+
++ new datasets: Malaria-dataset (COCO-format)
++ new backbone: ResNet18, ResNet34, MobileNetV2, MobileNetV3, MNASNet, EfficientNets
++ new neck: FPN
++ fix gaussian radius calculation in lib/utils/image.py (refer to https://github.com/princeton-vl/CornerNet)
++ add cpu inference ability
 
 
 ## Main results
@@ -34,10 +45,5 @@ bash cmd_train.sh
 + eval:
 bash cmd_test.sh
 
-+ demo
-bas cmd_demo.sh
-
-
-## License
-
-CenterNet (https://github.com/xingyizhou/CenterNet)
++ demo:
+bash cmd_demo.sh
